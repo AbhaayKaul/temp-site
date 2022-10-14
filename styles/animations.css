@@ -1,0 +1,59 @@
+.fadeout {
+  opacity: 0;
+  animation: fadeout 2s ease-in-out;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.fadein {
+  opacity: 1;
+  animation: fadein 2s ease-in-out;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.animation-fade {
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+  70% {
+    opacity: 0;
+    scale: 1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+  70% {
+    opacity: 0.01;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+  70% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
