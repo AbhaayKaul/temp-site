@@ -1,5 +1,5 @@
 import Head from 'next/head';
-// import Index from '../components/LandingPage';
+import Index from '../components/LandingPage';
 import LandingPage from '../components/LandingPage/LandingPage';
 
 const Home = () => (
@@ -7,9 +7,9 @@ const Home = () => (
     <Head>
       <title>hirable</title>
     </Head>
-    {/* <Index> */}
-      <LandingPage />
-    {/* </Index> */}
+    <Index>
+      <LandingPage/>
+    </Index>
   </div>
 );
 
